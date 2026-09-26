@@ -29,6 +29,7 @@ function solve_static(s)                 # from class
     return x_opt, s - x_opt, F(x_opt) + U(s - x_opt)
 end
 
+# test
 # ═══ 1. Who gets what ════════════════════════════════════════════════════
 # For a reservoir level s, walk x across (0, s) and record what each party
 # receives. The optimum maximizes the sum. Both ends are corners.
